@@ -592,7 +592,7 @@
 
     if getgenv().advanced_workaround_method == false and getmetatable and setmetatable and hookmetamethod and hookfunction then
         print("Advanced exploit detected, using bypass method.")
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/EnterpriseExperience/ParadiseRPScript/refs/heads/main/quick_workaround_rspy.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/harley5435435/quick_workaround_rspy.lua/refs/heads/main/quick_workaround_rspy.lua'))()
         wait(0.1)
         getgenv().advanced_workaround_method = true
     elseif not (getmetatable or setmetatable or hookmetamethod or hookfunction) then
@@ -688,7 +688,7 @@
     if getgenv().emotes_bypassed then
         warn("Emotes are already bypassed.")
     else
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/EnterpriseExperience/MicUpSource/refs/heads/main/Emote_Bypass_Script.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/harley5435435/Emote_Bypass_Script.lua/refs/heads/main/Emote_Bypass_Script.lua'))()
         getgenv().emotes_bypassed = true
     end
     wait(0.1)
